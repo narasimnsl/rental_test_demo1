@@ -1,0 +1,46 @@
+/* Module Wrapper - Top leevel main  Wrapper*/
+.moduleWrapper {
+    width:650px;
+    margin:0 auto;
+    padding: 20px;
+}
+/* Wrap the all content in Module moduleContainer */
+.moduleContainer{
+    background-color:#f1f1f1;
+    border-radius: 5px;
+    min-height:400px;
+    box-shadow: 0 8px 6px -6px black;
+}
+/* Styles for Header Container */
+.HeaderContainer{
+    background-color: rgb(255, 90, 97);
+    text-align: center;
+    color: #fff;
+    padding:10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* Styles for Content*/
+.contentContainer{
+    padding: 30px;
+}
+
+/* On screens that are 768px or less, set the Module Wrapper width 100% */
+@media screen and (max-width: 768px) {
+    .moduleWrapper {
+        width:100%;
+        padding: 0px;
+        margin:0px;
+    }
+    .moduleContainer{
+        margin:10px;
+    }
+    .HeaderContainer{
+       
+        padding:5px;
+        
+    }
+    .contentContainer{
+        padding: 10px;
+    }
+}
